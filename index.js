@@ -67,7 +67,7 @@ $.ajax({
 
 function copyToClipboard(ch_Id) {
   let copyUrl = encodeURI(
-    `https://stream.espnonline.site/live/embed.php?ch=${ch_Id}`
+    `https://stream.espnonline.store/live/embed.php?ch=${ch_Id}`
   );
 
   window.navigator.clipboard.writeText(copyUrl);
